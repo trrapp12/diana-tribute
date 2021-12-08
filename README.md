@@ -52,7 +52,7 @@ This is an example for a Product Landing Page for the QUADRAStalkr, an imaginary
 ### Project published at: 
 ---
 
-[QUADRAStalkr](https://trrapp12.github.io/diana-tribute/)
+[Diana Tribute Page](https://trrapp12.github.io/diana-tribute/)
 
 ### More Information:
 ---
