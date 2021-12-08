@@ -11,7 +11,7 @@
 
 ##### Trevor Rapp
 
-<br />![QUADRAStalkr](https://user-images.githubusercontent.com/11747875/144578671-1739a4ec-23e8-45e1-80a9-7d7fb39856d0.gif)
+<br />![Diana Tribute Page](https://user-images.githubusercontent.com/11747875/145134811-b1988778-44ab-43fd-b194-07041f0fb393.gif)
 
 
 
@@ -52,7 +52,7 @@ This is an example for a Product Landing Page for the QUADRAStalkr, an imaginary
 ### Project published at: 
 ---
 
-[QUADRAStalkr](https://trrapp12.github.io/diana-tribute/)
+[Diana Tribute Page](https://trrapp12.github.io/diana-tribute/)
 
 ### More Information:
 ---
