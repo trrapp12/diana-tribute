@@ -1,0 +1,40 @@
+img {
+  max-width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.tribute-info {
+  display: block;
+  width: 30%;
+  margin: 3em auto 1em auto;
+  color: white;
+  font-size: 22px;
+}
+
+li {
+  display: block;
+  margin: 1em auto 1em auto;
+  width: 30%;
+  color: white;
+  font-size: 22px;
+}
+
+#main {
+  background-color: black;
+}
+
+#title {
+  color: white;
+  margin: 2em auto 4em auto;
+  width: 20%;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+#img-caption {
+  display: block;
+  color: white;
+  margin: 1em auto 1em 10%;
+  width: 40%
+  font-size: 12px;
+}
