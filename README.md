@@ -5,7 +5,7 @@
 <br>
 
 
-[![Button60](https://user-images.githubusercontent.com/11747875/145134031-63e505b6-c009-4e4b-8bd6-bc160c52c3f1.png)](https://trrapp12.github.io/Product-Page/)
+[![Button60](https://user-images.githubusercontent.com/11747875/145134031-63e505b6-c009-4e4b-8bd6-bc160c52c3f1.png)](https://trrapp12.github.io/diana-tribute/)
 
 <br>
 
@@ -64,7 +64,7 @@ This is an example for a Product Landing Page for the QUADRAStalkr, an imaginary
 ### Project published at: 
 ---
 
-[QUADRAStalkr](https://trrapp12.github.io/Product-Page/)
+[QUADRAStalkr](https://trrapp12.github.io/diana-tribute/)
 
 ### More Information:
 ---
