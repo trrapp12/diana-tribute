@@ -31,35 +31,23 @@ This is an example for a Product Landing Page for the QUADRAStalkr, an imaginary
 ### Project demonstrates the following:
 ---
 
-- [X] **User Story #1:** My product landing page should have a header element with a corresponding id="header".
+- [X] **User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
-- [X] **User Story #2:** I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
+- [X] **User Story #2:** I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
 
-- [X] **User Story #3:** Within the #header element I can see a nav element with a corresponding id="nav-bar".
+- [X] **User Story #3:** I should see either a figure or a div element with a corresponding id="img-div".
 
-- [X] **User Story #4:** I can see at least three clickable elements inside the nav element, each with the class nav-link.
+- [X] **User Story #4:** Within the img-div element, I should see an img element with a corresponding id="image".
 
-- [X] **User Story #5:** When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
+- [X] **User Story #5:** Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
 
-- [X] **User Story #6:** I can watch an embedded product video with id="video".
+- [X] **User Story #6:** I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
 
-- [X] **User Story #7:** My landing page has a form element with a corresponding id="form".
+- [X] **User Story #7:** I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
 
-- [X] **User Story #8:** Within the form, there is an input field with id="email" where I can enter an email address.
+- [X] **User Story #8:** The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 
-- [X] **User Story #9:** The #email input field should have placeholder text to let the user know what the field is for.
-
-- [X] **User Story #10:** The #email input field uses HTML5 validation to confirm that the entered text is an email address.
-
-- [X] **User Story #11:** Within the form, there is a submit input with a corresponding id="submit".
-
-- [X] **User Story #12:** When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
-
-- [X] **User Story #13:** The navbar should always be at the top of the viewport.
-
-- [X] **User Story #14:** My product landing page should have at least one media query.
-
-- [X] **User Story #15:** My product landing page should utilize CSS flexbox at least once.
+- [X] **User Story #9:** The img element should be centered within its parent element.
 
 ### Project published at: 
 ---
