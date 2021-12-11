@@ -1,6 +1,15 @@
+@font-face {
+    font-family: 'mafakanevregular';
+    src: url('fonts/webfontkit-20211211-141531/mafakanev.woff2') format('woff2'),
+         url('fonts/webfontkit-20211211-141531/mafakanev.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 img {
-  max-width: 80%;
-  margin: auto;
+  max-width: 50%;
+  margin-left: auto;
   display: block;
 }
 
@@ -20,18 +29,18 @@ li {
   font-size: 22px;
 }
 
-#main {
+.main {
   background-color: black;
 }
 
-#title {
+.title {
   color: white;
   margin: 2em auto 4em auto;
   width: 20%;
-  font-family: 'Zen Kurenaido', sans-serif;
+  font-family: 'mafakanevregular', sans-serif;
 }
 
-#img-caption {
+.img-caption {
   display: block;
   color: white;
   margin: 1em auto 1em 10%;
