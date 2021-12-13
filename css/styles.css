@@ -30,6 +30,49 @@ body {
   top: 80vh;
 }
 
+img {
+  max-width: 50%;
+  margin-left: auto;
+  display: block;
+}
+
+.tribute-info {
+  display: block;
+  width: 30%;
+  margin: 3em auto 1em auto;
+  color: white;
+  font-size: 22px;
+}
+
+li {
+  display: block;
+  margin: 1em auto 1em auto;
+  width: 30%;
+  color: white;
+  font-size: 22px;
+}
+
+.main {
+  background-color: black;
+}
+
+.title {
+  color: white;
+  margin: 1em auto 1em auto;
+  width: 32%;
+  font-family: 'mafakanevregular', sans-serif;
+  font-size: 5em;
+  display: none;
+}
+
+.img-caption {
+  display: block;
+  color: white;
+  margin: 1em auto 1em 10%;
+  width: 40%
+  font-size: 12px;
+}
+
 svg {
   width: 70%;
   display: block;
@@ -40,8 +83,12 @@ svg {
   transform: translate(-50%, -50%);
   height: auto;
   z-index: -25;
+
 }
 
+#logo {
+    animation: fill 0.5s ease forwards 6s !important;
+}
 
 #logo > path:nth-child(2) {
   stroke-dasharray: 1412.4;
@@ -184,6 +231,14 @@ svg {
   }
 }
 
+@keyframes fill {
+    from {
+      fill: transparent;
+    }
+    to {
+      fill: #9F8047;
+    }
+}
 
 /* colors:
 bright pink: #F22E52
@@ -191,47 +246,3 @@ pink: #F26D85
 dark-dark blue: #080726
 dark blue: #0E1259
 blue: #171C73 */
-
-
-img {
-  max-width: 50%;
-  margin-left: auto;
-  display: block;
-}
-
-.tribute-info {
-  display: block;
-  width: 30%;
-  margin: 3em auto 1em auto;
-  color: white;
-  font-size: 22px;
-}
-
-li {
-  display: block;
-  margin: 1em auto 1em auto;
-  width: 30%;
-  color: white;
-  font-size: 22px;
-}
-
-.main {
-  background-color: black;
-}
-
-.title {
-  color: white;
-  margin: 1em auto 1em auto;
-  width: 32%;
-  font-family: 'mafakanevregular', sans-serif;
-  font-size: 5em;
-  display: none;
-}
-
-.img-caption {
-  display: block;
-  color: white;
-  margin: 1em auto 1em 10%;
-  width: 40%
-  font-size: 12px;
-}
