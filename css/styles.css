@@ -86,9 +86,20 @@ svg {
 
 }
 
-svg#logo {
+
+#logo > path {
   animation: fill 0.5s ease forwards 5.5s;
 }
+
+#path-1-outside-1_6_6 {
+  animation: fill 0.5s ease forwards 5.5s;
+}
+
+#logo {
+  animation: fill 0.5s ease forwards 5.5s;
+}
+
+
 
 #logo > path:nth-child(2) {
   stroke-dasharray: 1412.4;
@@ -225,6 +236,13 @@ svg#logo {
   animation: line-anim 2s ease forwards 7.3s;
 }
 
+/* #logo > path:nth-child(n){
+  stroke-dasharray: inherit;
+  stroke-dashoffset: inherit;
+  animation: goldtowhite 2s ease forwards 8s;
+  animation-delay: 16s;
+} */
+
 @keyframes line-anim {
   to {
     stroke-dashoffset: 0;
@@ -236,10 +254,24 @@ svg#logo {
       fill: transparent;
     }
     to {
-      fill: #9F8047;
+      fill: white;
     }
 }
 
+@keyframes whitefill {
+    from {
+      stroke: transparent;
+    }
+    to {
+      stroke: white;
+    }
+}
+
+@keyframes goldtowhite {
+    to {
+      stroke: white;
+    }
+}
 /* colors:
 bright pink: #F22E52
 pink: #F26D85
