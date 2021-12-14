@@ -268,8 +268,11 @@ svg {
 }
 
 @keyframes goldtowhite {
-    to {
+    from {
       stroke: white;
+    }
+    to {
+      stroke: transparent;
     }
 }
 /* colors:
