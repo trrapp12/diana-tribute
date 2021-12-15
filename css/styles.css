@@ -73,6 +73,12 @@ li {
   font-size: 12px;
 }
 
+.svg-container {
+  width: 100%;
+  height: 100vh;
+  
+}
+
 svg {
   width: 70%;
   display: block;
@@ -86,7 +92,6 @@ svg {
 
 }
 
-
 #logo > path {
   animation: fill 0.5s ease forwards 5.5s;
 }
@@ -98,8 +103,6 @@ svg {
 #logo {
   animation: fill 0.5s ease forwards 5.5s;
 }
-
-
 
 #logo > path:nth-child(2) {
   stroke-dasharray: 1412.4;
@@ -235,13 +238,6 @@ svg {
   stroke-dashoffset: 830.8;
   animation: line-anim 2s ease forwards 7.3s;
 }
-
-/* #logo > path:nth-child(n){
-  stroke-dasharray: inherit;
-  stroke-dashoffset: inherit;
-  animation: goldtowhite 2s ease forwards 8s;
-  animation-delay: 16s;
-} */
 
 @keyframes line-anim {
   to {
