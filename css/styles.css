@@ -17,9 +17,13 @@ Font-Size: 16px; */
   box-sizing: border-box;
 }
 
+html {
+  width: 100%;
+  height: 100%;
+}
 body {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -30,6 +34,25 @@ body {
   width: 100%;
 }
 
+.down-arrow {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 40px solid #9F8047;
+    position: sticky;
+    left: 13vw;
+    top: 87.9vh;
+}
+
+.inner-arrow {
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 35px solid black;
+    transform: translate(-13px, -39px);
+}
 .img-div {
   display: block;
   width: 100%;
@@ -41,10 +64,10 @@ body {
 }
 
 img {
-  max-width: 50%;
-  margin-left: 50%;
+  max-width: 56%;
+  margin-left: 44%;
   height: auto;
-  margin-top: calc(100vh/3.33);
+  margin-top: calc(100vh/19);
 }
 
 .tribute-info {
@@ -98,10 +121,14 @@ main > div.card:nth-child(odd)::before {
 }
 
 main > div.card:nth-child(1) {
-  border-top: none;
-  border-radius: 0px 0px 10px 0px;
+    border-top: none;
+    border-radius: 0px 0px 10px 0px;
+    height: 12vh;
+    top: 1vh;
+    position: relative;
+    width: 24.6vw;
+    transform: translate(-24vw, -69vh);
 }
-
 
 h3 {
   padding: 0 0 .5em 0;
@@ -131,11 +158,33 @@ p {
 
 .title {
   color: white;
-  margin: 1em auto 1em auto;
+  margin: 1em 0 1em auto;
   width: 32%;
-
   font-size: 5em;
-  display: none;
+  Font-Family: 'Julius Sans One', Sans-Serif;
+}
+
+.background-gradient::after {
+  content: '';
+  width: 32%;
+  background-image: linear-gradient(144deg, rgba(159,128,71,1) 7%, rgba(235,189,106,1) 21%, rgba(255,255,255,1) 75%, rgba(235,189,106,1) 92%, rgba(159,128,71,1) 100%);
+  filter: blur(1.5em)
+}
+
+.background-gradient {
+  background: rgb(159,128,71);
+  background-image: linear-gradient(144deg, rgba(159,128,71,1) 7%, rgba(235,189,106,1) 21%, rgba(255,255,255,1) 75%, rgba(235,189,106,1) 92%, rgba(159,128,71,1) 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  width: 100%;
+}
+
+.title:hover {
+  background-clip: text;
+  text-fill-color: transparent
 }
 
 .img-caption {
@@ -315,6 +364,10 @@ svg {
   stroke-dasharray: 830.8;
   stroke-dashoffset: 830.8;
   animation: line-anim 2s ease forwards 7.3s;
+}
+
+.upper-line {
+
 }
 
 @keyframes line-anim {
