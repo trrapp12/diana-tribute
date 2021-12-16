@@ -56,13 +56,21 @@ img {
 }
 
 .card {
-  display: flex;
-  padding: 2.15em;
-  margin: 0 auto 0 auto;
-  width: 50%;
-  color: white;
-  font-size: 22px;
-  min-height: fit-content;
+    display: flex;
+    flex-flow: column;
+    padding: 2.15em 2.15em 8em 2.15em;
+    margin: 0 auto 0 auto;
+    width: 50%;
+    color: white;
+    font-size: 22px;
+    min-height: fit-content;
+}
+
+.card:nth-child(even):hover,.card:nth-child(even):focus {
+  -webkit-box-shadow: inset 30vw 10px 122px -20px rgba(14,18,89,.8);
+  -moz-box-shadow: inset 30vw 10px 122px -20px rgba(14,18,89,.8);
+  box-shadow: inset 30vw 10px 122px -20px rgba(14,18,89,.8);
+  transition: all .5s ease;
 }
 
 .card:nth-child(odd) > h3, .card:nth-child(odd)  > p {
@@ -71,19 +79,27 @@ img {
 }
 
 .card:nth-child(odd) {
-    border-right: solid white 2px;
-    border-top: solid white 2px;
-    border-radius: 10px 0px 10px 10px;
+  border-right: solid #9F8047 2px;
+  border-top: solid #9F8047 2px;
+  border-bottom: solid #9F8047 2px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+main > div.card:nth-child(odd)::before {
+  width: 50%;
+  background-color: black;
 }
 
 .card:nth-child(even) {
-  border-left: solid white 2px;
-  border-top: solid white 2px;
-  border-radius: 10px 0px 10px 10px;
+    border-left: solid #9F8047 2px;
+    border-radius: 10px 0px 10px 10px;
+    transform: translate(-5px, 0px);
+    border-width: 3px;
 }
 
-li:nth-child(1) {
+main > div.card:nth-child(1) {
   border-top: none;
+  border-radius: 0px 0px 10px 0px;
 }
 
 
@@ -94,19 +110,19 @@ h3 {
   Font-Size: 1.5em;
 }
 
-p {
-  Font-Family: 'Monda', Sans-Serif;
-  Font-Size: .75em;
-  color: white;
-}
-
-p:hover {
+h3:hover {
   background: #9F8047;
   background: -webkit-radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
   background: -moz-radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
   background: radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+p {
+  Font-Family: 'Monda', Sans-Serif;
+  Font-Size: .75em;
+  color: white;
 }
 
 .main {
