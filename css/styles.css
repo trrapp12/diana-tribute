@@ -4,8 +4,12 @@
          url('../fonts/webfontkit-20211211-141531/mafakanev.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
+/* Font-Family: 'Julius Sans One', Sans-Serif;
+Font-Size: 45px;
+Font-Family: 'Monda', Sans-Serif;
+Font-Size: 16px; */
 
 * {
   margin: 0;
@@ -44,19 +48,65 @@ img {
 }
 
 .tribute-info {
-  display: block;
+  display: none;
   width: 30%;
   margin: 3em auto 1em auto;
   color: white;
   font-size: 22px;
 }
 
-li {
-  display: block;
-  margin: 1em auto 1em auto;
-  width: 30%;
+.card {
+  display: flex;
+  padding: 2.15em;
+  margin: 0 auto 0 auto;
+  width: 50%;
   color: white;
   font-size: 22px;
+  min-height: fit-content;
+}
+
+.card:nth-child(odd) > h3, .card:nth-child(odd)  > p {
+  display: flex;
+  justify-content: right
+}
+
+.card:nth-child(odd) {
+    border-right: solid white 2px;
+    border-top: solid white 2px;
+    border-radius: 10px 0px 10px 10px;
+}
+
+.card:nth-child(even) {
+  border-left: solid white 2px;
+  border-top: solid white 2px;
+  border-radius: 10px 0px 10px 10px;
+}
+
+li:nth-child(1) {
+  border-top: none;
+}
+
+
+h3 {
+  padding: 0 0 .5em 0;
+  text-transform: uppercase;
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  Font-Size: 1.5em;
+}
+
+p {
+  Font-Family: 'Monda', Sans-Serif;
+  Font-Size: .75em;
+  color: white;
+}
+
+p:hover {
+  background: #9F8047;
+  background: -webkit-radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
+  background: -moz-radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
+  background: radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main {
@@ -67,7 +117,7 @@ li {
   color: white;
   margin: 1em auto 1em auto;
   width: 32%;
-  font-family: 'mafakanevregular', sans-serif;
+
   font-size: 5em;
   display: none;
 }
@@ -102,7 +152,6 @@ svg {
   transform: translate(-50%, -50%);
   height: auto;
   z-index: -25;
-
 }
 
 #logo > path {
