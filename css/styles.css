@@ -22,6 +22,10 @@ body {
   flex-wrap: wrap;
 }
 
+.container {
+  width: 100%;
+}
+
 .img-div {
   display: block;
   width: 100%;
