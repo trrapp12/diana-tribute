@@ -1,6 +1,7 @@
 (function () {
 let j = 0;
 const parent = document.getElementById('logo').children;
+
 // console.log(parent);
     document.addEventListener('animationend', function(evt) {setTimeout( () => {
       if (evt.target.nodeName === 'path' && j === 0) {
@@ -22,8 +23,6 @@ const parent = document.getElementById('logo').children;
             parent[i].style.animationDirection = 'forwards !important';
             parent[i].style.animationTimingFunction = 'ease !important';
             parent[i].style.animationDelay = '500ms';
-
-
           } else {
             console.log('not');
           }

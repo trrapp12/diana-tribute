@@ -26,14 +26,19 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  position: relative;
-  top: 80vh;
+  position: fixed;
+  min-height: 100vh;
+  min-width: 100%;
+  top: 0;
+  left: 0;
 }
 
 img {
   max-width: 50%;
-  margin-left: auto;
-  display: block;
+  margin-left: 50%;
+  height: auto;
+  position: static;
+  margin-top: calc(100vh/3.33);
 }
 
 .tribute-info {
@@ -69,14 +74,20 @@ li {
   display: block;
   color: white;
   margin: 1em auto 1em 10%;
-  width: 40%
+  width: 40%;
   font-size: 12px;
 }
 
 .svg-container {
   width: 100%;
-  height: 100vh;
-  
+  min-height: 100vh;
+  position: fixed;
+  display: block;
+  z-index: 1000;
+  animation: visibility 2s ease forwards 10s;
+  background-color: black;
+  top: 0;
+  left: 0;
 }
 
 svg {
@@ -270,6 +281,17 @@ svg {
     to {
       stroke: transparent;
     }
+}
+
+@keyframes visibility {
+  from {
+    visibility: visible;
+    opacity: 1;
+  }
+  to {
+    visibility: hidden;
+    opacity: 0;
+  }
 }
 /* colors:
 bright pink: #F22E52
