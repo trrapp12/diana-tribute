@@ -59,9 +59,10 @@ Font-Size: 16px; */
 
 .bengal {
   max-width: 56%;
-    margin-left: 60%;
-    height: auto;
-    margin-top: calc(100vh/19);
+  margin-left: 60%;
+  height: auto;
+  margin-top: calc(100vh/19);
+  filter: invert(1) hue-rotate(12deg);
 }
 
 body {
@@ -160,10 +161,35 @@ figcaption {
   width: 80%;
 }
 
+#event_31 > figure > figcaption {
+  font-size: .55em;
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  padding: 0em;
+  margin-left: 26em;
+  width: 58%;
+  margin-bottom: 2em;
+}
+
 html {
   min-height: 100%;
   scroll-behavior: smooth;
   width: 100%;
+}
+
+h3 {
+  padding: 0 0 .5em 0;
+  text-transform: uppercase;
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  Font-Size: 1.5em;
+}
+
+h3:hover {
+  background: #9F8047;
+  background: -webkit-radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
+  background: -moz-radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
+  background: radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 img {
@@ -181,6 +207,38 @@ img {
   min-width: 100%;
   top: 0;
   left: 0;
+}
+
+.img-caption {
+  display: block;
+  color: white;
+  margin: 1em auto 1em 10%;
+  width: 40%;
+  font-size: 12px;
+}
+
+.img-vegas {
+  width: 60%;
+}
+
+.img-hospital {
+  max-width: 100%;
+  margin-top: 6em;
+  margin-bottom: -2em;
+  margin-left: 25%;
+}
+
+.img-proclamation {
+  max-width: 56%;
+  margin-left: 38%;
+  height: auto;
+  margin-top: calc(100vh/19);
+  margin-bottom: 2em;
+}
+
+.img-reception {
+  max-width: 100%;
+  margin-left: 0;
 }
 
 .inner-arrow {
@@ -220,130 +278,11 @@ img {
 	}
 }
 
-
-
-
-main > div.card:nth-child(odd)::before {
-  width: 50%;
-  background-color: black;
-}
-
-
-
-main > div.card:nth-child(1) {
-    border-top: none;
-    border-radius: 0px 0px 10px 0px;
-    height: 12vh;
-    top: 1vh;
-    position: relative;
-    width: 24.6vw;
-    transform: translate(-24vw, -69vh);
-}
-
-h3 {
-  padding: 0 0 .5em 0;
-  text-transform: uppercase;
-  Font-Family: 'Julius Sans One', Sans-Serif;
-  Font-Size: 1.5em;
-}
-
-
-
-h3:hover {
-  background: #9F8047;
-  background: -webkit-radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
-  background: -moz-radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
-  background: radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-p {
-  Font-Family: 'Monda', Sans-Serif;
-  Font-Size: .75em;
-  color: white;
-}
-
-.main {
-  background-color: black;
-}
-
-.title {
-  color: white;
-  margin: 1em 0 1em auto;
-  width: 32%;
-  font-size: 5em;
-  Font-Family: 'Julius Sans One', Sans-Serif;
-}
-
-.tribute-info {
-  display: none;
-  width: 30%;
-  margin: 3em auto 1em auto;
-  color: white;
-  font-size: 22px;
-}
-
-
-.title:hover {
-  background-clip: text;
-  text-fill-color: transparent
-}
-
-.img-caption {
-  display: block;
-  color: white;
-  margin: 1em auto 1em 10%;
-  width: 40%;
-  font-size: 12px;
-}
-
-.img-vegas {
-  width: 60%;
-}
-.scans {
-  transform: rotate(90deg);
-  filter: contrast(1.1);
-  width: 100%;
-}
-
-.scans > figcaption {
-  margin-left: 36%;
-}
-
-.svg-container {
-  width: 100%;
-  min-height: 100vh;
-  position: fixed;
-  display: block;
-  z-index: 1000;
-  animation: visibility 2s ease forwards 10s;
-  background-color: black;
-  top: 0;
-  left: 0;
-}
-
-svg {
-  width: 70%;
-  display: block;
-  margin: auto;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: auto;
-  z-index: -25;
+#logo {
+  animation: fill 0.5s ease forwards 5.5s;
 }
 
 #logo > path {
-  animation: fill 0.5s ease forwards 5.5s;
-}
-
-#path-1-outside-1_6_6 {
-  animation: fill 0.5s ease forwards 5.5s;
-}
-
-#logo {
   animation: fill 0.5s ease forwards 5.5s;
 }
 
@@ -481,6 +420,96 @@ svg {
   stroke-dashoffset: 830.8;
   animation: line-anim 2s ease forwards 7.3s;
 }
+
+.main {
+  background-color: black;
+}
+
+main > div.card:nth-child(odd)::before {
+  width: 50%;
+  background-color: black;
+}
+
+main > div.card:nth-child(1) {
+    border-top: none;
+    border-radius: 0px 0px 10px 0px;
+    height: 12vh;
+    top: 1vh;
+    position: relative;
+    width: 24.6vw;
+    transform: translate(-24vw, -69vh);
+}
+
+
+
+p {
+  Font-Family: 'Monda', Sans-Serif;
+  Font-Size: .75em;
+  color: white;
+}
+
+.title {
+  color: white;
+  margin: 1em 0 1em auto;
+  width: 32%;
+  font-size: 5em;
+  Font-Family: 'Julius Sans One', Sans-Serif;
+}
+
+.tribute-info {
+  display: none;
+  width: 30%;
+  margin: 3em auto 1em auto;
+  color: white;
+  font-size: 22px;
+}
+
+.title:hover {
+  background-clip: text;
+  text-fill-color: transparent
+}
+
+.scans {
+  transform: rotate(90deg);
+  filter: contrast(1.1);
+  width: 100%;
+}
+
+.scans > figcaption {
+  margin-left: 36%;
+}
+
+.svg-container {
+  width: 100%;
+  min-height: 100vh;
+  position: fixed;
+  display: block;
+  z-index: 1000;
+  animation: visibility 2s ease forwards 10s;
+  background-color: black;
+  top: 0;
+  left: 0;
+}
+
+svg {
+  width: 70%;
+  display: block;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  z-index: -25;
+}
+
+
+
+#path-1-outside-1_6_6 {
+  animation: fill 0.5s ease forwards 5.5s;
+}
+
+
 
 .upper-line {
 
