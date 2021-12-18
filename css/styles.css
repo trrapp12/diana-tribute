@@ -412,7 +412,7 @@ svg {
 }
 
 .secondspin {
-  animation: spin 2s ease forwards;
+  animation: secondspin 2s ease forwards;
 }
 
 @keyframes line-anim {
@@ -476,8 +476,8 @@ svg {
     transform:rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(1260deg);
-    transform:rotate(1260deg);
+    -webkit-transform: rotate(1080deg);
+    transform:rotate(1080deg);
   }
 }
 
