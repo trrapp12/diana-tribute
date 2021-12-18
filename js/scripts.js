@@ -11,10 +11,6 @@ const parent = document.getElementById('logo').children;
         for (let i = 0; i < parent.length; i++) {
           // console.log(parent[i]);
           if (parent[i].nodeName === 'path') {
-            // parent[i].style.transitionProperty = 'stroke';
-            // parent[i].style.transitionDuration = '5s'
-            // parent[i].style.transitionTimingFunction = 'ease';
-            // parent[i].style.stroke = 'none';
 
             parent[i].style.strokeDashArray = 'inherit';
             parent[i].style.strokeDashoffset = 'inherit';

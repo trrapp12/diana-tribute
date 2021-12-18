@@ -287,6 +287,11 @@ p {
 .img-vegas {
   width: 60%;
 }
+.scans {
+  transform: rotate(90deg);
+  filter: contrast(1.1);
+  width: 100%;
+}
 
 .svg-container {
   width: 100%;
