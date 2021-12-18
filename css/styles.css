@@ -124,11 +124,28 @@ img {
   transform: translate(-13px, -39px);
   width: 0;
   transition: 0.3s;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+  animation: pulse-white 2s infinite;
 }
 
 .inner-arrow:hover {
   border-top: 35px solid #9F8047;
 }
+
+@keyframes pulse-white {
+	0% {
+		filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0.8));
+	}
+
+	70% {
+		filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0));
+	}
+
+	100% {
+		filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
+	}
+}
+
 .tribute-info {
   display: none;
   width: 30%;
