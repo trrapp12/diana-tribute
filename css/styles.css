@@ -89,6 +89,11 @@ body {
   width: 100%;
 }
 
+.covid {
+  width: 90%;
+  padding: 2em 2em 1em 2em;
+}
+
 .down-arrow {
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -98,6 +103,14 @@ body {
     position: sticky;
     top: 87.9vh;
     width: 0;
+}
+
+figcaption {
+  font-size: .55em;
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  padding: 0em;
+  margin-left: 4em;
+  width: 80%;
 }
 
 html {
@@ -522,6 +535,12 @@ svg {
     -webkit-transform: rotate(1080deg);
     transform:rotate(1080deg);
   }
+}
+
+#tuachan_group_selfie {
+  object-fit: none;
+  width: 478.3px;
+  height: 270px;
 }
 
 .vegas {
