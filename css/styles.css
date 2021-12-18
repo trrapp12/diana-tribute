@@ -66,6 +66,13 @@ body {
   transition: all .5s ease;
 }
 
+.javascript-card-visibility {
+  -webkit-box-shadow: inset 30vw 10px 122px -20px rgba(14,18,89,.8);
+  -moz-box-shadow: inset 30vw 10px 122px -20px rgba(14,18,89,.8);
+  box-shadow: inset 30vw 10px 122px -20px rgba(14,18,89,.8);
+  transition: all .5s ease;
+}
+
 .card:nth-child(odd) > h3, .card:nth-child(odd)  > p {
   display: flex;
   justify-content: right
