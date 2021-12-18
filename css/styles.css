@@ -34,71 +34,18 @@ Font-Family: 'Monda', Sans-Serif;
 Font-Size: 16px; */
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-html {
-  width: 100%;
-  min-height: 100%;
-  scroll-behavior: smooth;
-}
 body {
-  width: 100%;
-  min-height: 100%;
   background-color: black;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-.container {
+  min-height: 100%;
   width: 100%;
-}
-
-.down-arrow {
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 40px solid #9F8047;
-    position: sticky;
-    left: 13vw;
-    top: 87.9vh;
-}
-
-.inner-arrow {
-    width: 0;
-    height: 0;
-    border-left: 13px solid transparent;
-    border-right: 13px solid transparent;
-    border-top: 35px solid black;
-    transform: translate(-13px, -39px);
-}
-.img-div {
-  display: block;
-  width: 100%;
-  height: auto;
-  min-height: 100vh;
-  min-width: 100%;
-  top: 0;
-  left: 0;
-}
-
-img {
-  max-width: 56%;
-  margin-left: 44%;
-  height: auto;
-  margin-top: calc(100vh/19);
-}
-
-.tribute-info {
-  display: none;
-  width: 30%;
-  margin: 3em auto 1em auto;
-  color: white;
-  font-size: 22px;
 }
 
 .card {
@@ -130,6 +77,64 @@ img {
   border-bottom: solid #9F8047 2px;
   border-radius: 0px 10px 10px 0px;
 }
+
+
+.container {
+  width: 100%;
+}
+
+.down-arrow {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 40px solid #9F8047;
+    height: 0;
+    left: 13vw;
+    position: sticky;
+    top: 87.9vh;
+    width: 0;
+}
+
+html {
+  min-height: 100%;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+img {
+  max-width: 56%;
+  margin-left: 44%;
+  height: auto;
+  margin-top: calc(100vh/19);
+}
+
+.img-div {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.inner-arrow {
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-top: 35px solid black;
+  height: 0;
+  transform: translate(-13px, -39px);
+  width: 0;
+}
+
+.tribute-info {
+  display: none;
+  width: 30%;
+  margin: 3em auto 1em auto;
+  color: white;
+  font-size: 22px;
+}
+
 
 main > div.card:nth-child(odd)::before {
   width: 50%;
