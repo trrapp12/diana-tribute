@@ -78,7 +78,6 @@ body {
   border-radius: 0px 10px 10px 0px;
 }
 
-
 .container {
   width: 100%;
 }
@@ -117,7 +116,6 @@ img {
   left: 0;
 }
 
-
 .inner-arrow {
   border-left: 13px solid transparent;
   border-right: 13px solid transparent;
@@ -125,8 +123,12 @@ img {
   height: 0;
   transform: translate(-13px, -39px);
   width: 0;
+  transition: 0.3s;
 }
 
+.inner-arrow:hover {
+  border-top: 35px solid #9F8047;
+}
 .tribute-info {
   display: none;
   width: 30%;
