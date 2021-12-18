@@ -6,6 +6,28 @@
     font-style: normal;
 }
 
+:root {
+  --shadow-color: 250deg 62% 12%;
+  --shadow-elevation-low:
+    0.1px 0.5px 0.6px hsl(var(--shadow-color) / 0.29),
+    0.1px 0.8px 1px -1px hsl(var(--shadow-color) / 0.34),
+    0.3px 1.8px 2.2px -2px hsl(var(--shadow-color) / 0.38);
+  --shadow-elevation-medium:
+    0.1px 0.5px 0.6px hsl(var(--shadow-color) / 0.31),
+    0.2px 1.6px 1.9px -0.7px hsl(var(--shadow-color) / 0.34),
+    0.6px 3.9px 4.7px -1.4px hsl(var(--shadow-color) / 0.38),
+    1.4px 9.2px 11.1px -2px hsl(var(--shadow-color) / 0.41);
+  --shadow-elevation-high:
+    0.1px 0.5px 0.6px hsl(var(--shadow-color) / 0.29),
+    0.5px 3.1px 3.7px -0.3px hsl(var(--shadow-color) / 0.3),
+    0.9px 5.8px 7px -0.6px hsl(var(--shadow-color) / 0.32),
+    1.4px 9.2px 11.1px -0.9px hsl(var(--shadow-color) / 0.33),
+    2.1px 14.2px 17.1px -1.2px hsl(var(--shadow-color) / 0.35),
+    3.3px 21.7px 26.2px -1.5px hsl(var(--shadow-color) / 0.36),
+    4.9px 32.4px 39.1px -1.8px hsl(var(--shadow-color) / 0.38),
+    7.1px 47.2px 56.9px -2px hsl(var(--shadow-color) / 0.4);
+}
+
 /* Font-Family: 'Julius Sans One', Sans-Serif;
 Font-Size: 45px;
 Font-Family: 'Monda', Sans-Serif;
@@ -19,11 +41,11 @@ Font-Size: 16px; */
 
 html {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 body {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -137,6 +159,16 @@ h3 {
   Font-Size: 1.5em;
 }
 
+h3::before {
+  content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border-radius: 999px;
+    border: 3px solid #9F8047;
+}
+
 h3:hover {
   background: #9F8047;
   background: -webkit-radial-gradient(circle farthest-corner at center center, #9F8047 0%, #EBBD6A 15%, #9F8047 100%);
@@ -193,6 +225,10 @@ p {
   margin: 1em auto 1em 10%;
   width: 40%;
   font-size: 12px;
+}
+
+.img-vegas {
+  width: 60%;
 }
 
 .svg-container {
@@ -412,6 +448,11 @@ svg {
     visibility: hidden;
     opacity: 0;
   }
+}
+
+.vegas {
+    filter: contrast(1.5);
+    transform: translate(-156px, 10px);
 }
 /* colors:
 bright pink: #F22E52
