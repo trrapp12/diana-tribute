@@ -161,13 +161,18 @@ figcaption {
   width: 80%;
 }
 
-#event_31 > figure > figcaption {
+.fig-caption-31 {
   font-size: .55em;
   Font-Family: 'Julius Sans One', Sans-Serif;
   padding: 0em;
   margin-left: 26em;
   width: 58%;
   margin-bottom: 2em;
+}
+
+.fig-cation-19 {
+  width: 50%;
+  margin: 0 0 0 38%;
 }
 
 html {
@@ -217,10 +222,6 @@ img {
   font-size: 12px;
 }
 
-.img-vegas {
-  width: 60%;
-}
-
 .img-hospital {
   max-width: 100%;
   margin-top: 6em;
@@ -239,6 +240,14 @@ img {
 .img-reception {
   max-width: 100%;
   margin-left: 0;
+}
+
+.img-road-trip {
+  max-width: 100%;
+}
+
+.img-vegas {
+  width: 60%;
 }
 
 .inner-arrow {
