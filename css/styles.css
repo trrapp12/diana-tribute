@@ -65,6 +65,17 @@ Font-Size: 16px; */
   filter: invert(1) hue-rotate(12deg);
 }
 
+blockquote {
+  border-left: solid #9F8047 2px;
+  padding: 2em 2em 2em 4em;
+  Font-Family: 'Monda', Sans-Serif;
+  Font-Size: .75em;
+  color: white;
+  background: rgb(159,128,71);
+  background: linear-gradient(90deg, rgba(159,128,71,0) 0%, rgba(159,128,71,0.17130602240896353) 4%, rgba(159,128,71,1) 4%, rgba(159,128,71,0) 73%);
+  margin-top: 2em;
+}
+
 body {
   background-color: black;
   display: flex;
@@ -77,7 +88,7 @@ body {
 .card {
     display: flex;
     flex-flow: column;
-    padding: 2.15em 2.15em 8em 2.15em;
+    padding: 2.15em 2.15em 6em 2.15em;
     margin: 0 auto 0 auto;
     width: 50%;
     color: white;
