@@ -221,6 +221,8 @@ figcaption {
   margin: 0 0 0 38%;
 }
 
+
+
 html {
   min-height: 100%;
   scroll-behavior: smooth;
@@ -256,20 +258,29 @@ img {
   height: 25em;
   object-position: 50% 50%;
   filter: contrast(1.2);
-  transform: translateX(50%);
+  transform: translateX(59%);
+}
+
+.img-seven-brides {
+  width: 39em;
+  object-position: 50% 50%;
+  height: 22em;
+  object-fit: cover;
+  max-width: 100%;
 }
 
 .img-school-katherine {
   object-fit: cover;
   width: 25em;
-  height: 31em;
-  object-position: 50% 50%;
-  transform: translateX(50%);
+  height: 25em;
+  object-position: 50% 28%;
+  transform: translateX(24%);
 }
+
 
 .img-kat-chair {
   max-width: 100%;
-  transform: translateX(-15%);
+  transform: translateX(5%);
 }
 
 .img-div {
@@ -280,6 +291,14 @@ img {
   min-width: 100%;
   top: 0;
   left: 0;
+}
+
+.img-balance-rock {
+  max-width: 170%;
+  margin-left: 0;
+  transform: translateX(-20%);
+  z-index: -433;
+  position: relative;
 }
 
 .img-caption {
