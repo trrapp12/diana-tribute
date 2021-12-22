@@ -187,6 +187,7 @@ figcaption {
 
 #event_1 {
   top: -26vh;
+  height: 54vh;
 }
 
 .img-alec {
@@ -570,8 +571,8 @@ p {
 }
 
 .scans {
-  transform: rotate(90deg);
   filter: contrast(1.1);
+  transform: rotate(90deg) translateY(-13%);
   width: 100%;
 }
 
