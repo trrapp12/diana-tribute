@@ -212,6 +212,18 @@ figcaption {
   overflow-wrap: break-word;
 }
 
+#event_35 > figure > .flush-right {
+  max-width: none;
+  margin-left: 0;
+  font-size: .55em;
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  padding: 3em;
+  margin-left: 0;
+  width: 78%;
+  margin-top: 1em;
+  overflow-wrap: break-word;
+}
+
 #event_1 {
   top: -26vh;
   height: 54vh;
@@ -291,8 +303,7 @@ img {
   width: 20em;
   height: 20em;
   object-position: 50% 50%;
-  transform: translate(100%, 0%);
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .img-baby-brooklyn-valentines {
@@ -351,10 +362,10 @@ img {
 }
 
 .img-hospital {
-  max-width: 100%;
-  margin-top: 6em;
-  margin-bottom: -2em;
-  margin-left: 25%;
+  margin-left: 0;
+  width: 140%;
+  max-width: none;
+  height: auto;
 }
 
 .img-proclamation {
