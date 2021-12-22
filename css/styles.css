@@ -200,6 +200,18 @@ figcaption {
   text-align: right;
 }
 
+#event_17 > figure > .flush-right-katherine {
+  max-width: none;
+  margin-left: 0;
+  font-size: .55em;
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  padding: 3em;
+  margin-left: 0;
+  width: 30%;
+  margin-top: 1em;
+  overflow-wrap: break-word;
+}
+
 #event_1 {
   top: -26vh;
   height: 54vh;
@@ -268,11 +280,10 @@ img {
 
 .img-baby-katherine {
   object-fit: cover;
-  width: 25em;
-  height: 25em;
-  object-position: 50% 50%;
+  width: 19em;
+  height: 24em;
   filter: contrast(1.2);
-  transform: translateX(59%);
+  margin-left: 0;
 }
 
 .img-baby-brooklyn {
@@ -281,11 +292,13 @@ img {
   height: 20em;
   object-position: 50% 50%;
   transform: translate(100%, 0%);
+    margin-left: 0;
 }
 
 .img-baby-brooklyn-valentines {
   max-width: none;
   width: 120%;
+  margin-left: 0;
 }
 
 .img-seven-brides {
@@ -301,13 +314,14 @@ img {
   width: 25em;
   height: 25em;
   object-position: 50% 28%;
-  transform: translateX(24%);
+  max-width: none;
+  margin-left: 0;
 }
 
 
 .img-kat-chair {
   max-width: 100%;
-  transform: translateX(5%);
+  margin-left: 0;
 }
 
 .img-div {
@@ -321,11 +335,11 @@ img {
 }
 
 .img-balance-rock {
-  max-width: 170%;
+  max-width: none;
   margin-left: 0;
-  transform: translateX(-20%);
   z-index: -433;
   position: relative;
+  width: 120%;
 }
 
 .img-caption {
