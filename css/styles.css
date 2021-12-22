@@ -227,6 +227,7 @@ html {
   min-height: 100%;
   scroll-behavior: smooth;
   width: 100%;
+  zoom: 100%;
 }
 
 h3 {
