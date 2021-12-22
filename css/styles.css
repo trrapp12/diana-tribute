@@ -580,6 +580,17 @@ p {
   margin-left: 36%;
 }
 
+.second-paragraph {
+    margin: 1em 0 1em 0;
+}
+
+#event_40 > ul > li {
+  font-size: .8em;
+  Font-Family: 'Julius Sans One', Sans-Serif;
+  margin-left: 1em;
+  line-height: 2em;
+}
+
 .svg-container {
   width: 100%;
   min-height: 100vh;
