@@ -541,6 +541,14 @@ p {
   color: white;
 }
 
+.right-modified {
+  width: 97%;
+  padding: 2em 0 2em 0;
+  margin-left: auto;
+  text-align: right;
+  margin-bottom: 1em;
+}
+
 .title {
   color: white;
   margin: 3% auto 0% auto;
@@ -596,13 +604,9 @@ svg {
   z-index: -25;
 }
 
-
-
 #path-1-outside-1_6_6 {
   animation: fill 0.5s ease forwards 5.5s;
 }
-
-
 
 .upper-line {
 
