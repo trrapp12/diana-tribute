@@ -39,6 +39,14 @@ Font-Size: 16px; */
   padding: 0;
 }
 
+.card > .alec-middle {
+    transform: translateX(10%);
+}
+
+.card > .alec-middle .figcaption{
+    transform: translateX(10%);
+}
+
 .background-gradient::before {
   content: '';
   width: 32%;
@@ -178,6 +186,13 @@ figcaption {
   transform: translateX(33%);
 }
 
+.flush-left {
+  width: 56%;
+  margin-left: auto;
+  padding: 2em 0 2em 0;
+  text-align: left;
+}
+
 .flush-right {
   width: 58%;
   padding: 2em 0 2em 0;
@@ -258,6 +273,19 @@ img {
   object-position: 50% 50%;
   filter: contrast(1.2);
   transform: translateX(59%);
+}
+
+.img-baby-brooklyn {
+  object-fit: cover;
+  width: 20em;
+  height: 20em;
+  object-position: 50% 50%;
+  transform: translate(100%, 0%);
+}
+
+.img-baby-brooklyn-valentines {
+  max-width: none;
+  width: 120%;
 }
 
 .img-seven-brides {
