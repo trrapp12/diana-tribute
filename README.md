@@ -31,7 +31,7 @@ This is a passion project for me.  You can see below a description of what the n
 <br>
 <br>
 
-### New project (v2.0) demonstrates the following:
+### New project (v2.0) demonstrates the following: 🆕
 ---
 
 - [X] **User Story #1:** Content is king, and this version does a deep dive into content, bringing 1<sup>st</sup> person stories, secondary news sources, timelines, and photographs to turn an over-night, check-the-box effort into a serious journalistic endeavor.
