@@ -78,6 +78,9 @@ This is a passion project for me.  You can see below a description of what the n
 
 - [X] **User Story #9:** The img element should be centered within its parent element.
 
+<br>
+<br>
+
 ### Project published at: 
 ---
 
@@ -86,7 +89,7 @@ This is a passion project for me.  You can see below a description of what the n
 ### More Information:
 ---
 
-\**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037) or return to my [Github](https://github.com/trrapp12)*
-# test-private
+*For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037) or return to my [Github](https://github.com/trrapp12)*
+
 
 
