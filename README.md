@@ -11,6 +11,9 @@
 
 <br>
 
+![Diana Tribute Page](https://user-images.githubusercontent.com/11747875/147320882-d0c01554-eadd-4d14-ae76-dd69c66f46a1.gif)
+<br />
+
 ---
 
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
@@ -52,8 +55,7 @@ This is a passion project for me.  You can see below a description of what the n
 
 ### 1.0 Description:
 
-![Diana Tribute Page](https://user-images.githubusercontent.com/11747875/147320882-d0c01554-eadd-4d14-ae76-dd69c66f46a1.gif)
-<br />
+
 
 ---
 
