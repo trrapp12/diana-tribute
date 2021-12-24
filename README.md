@@ -34,25 +34,25 @@ This is a passion project for me.  You can see below a description of what the n
 ### New project (v2.0) demonstrates the following: 🆕
 ---
 
-- [X] **User Story #1:** Content is king, and this version does a deep dive into content, bringing 1<sup>st</sup> person stories, secondary news sources, timelines, and photographs to turn an over-night, check-the-box effort into a serious journalistic endeavor.
+🆕 **User Story #1:** Content is king, and this version does a deep dive into content, bringing 1<sup>st</sup> person stories, secondary news sources, timelines, and photographs to turn an over-night, check-the-box effort into a serious journalistic endeavor.
 
-- [X] **User Story #2:** Utilizes custom subdomain and serves it up with TSL certificate for secure https:// routing.
+🆕 **User Story #2:** Utilizes custom subdomain and serves it up with TSL certificate for secure https:// routing.
 
-- [X] **User Story #3:** demonstrates IntersectionObserver API with a callback function to control animations based on screen position.
+🆕 **User Story #3:** demonstrates IntersectionObserver API with a callback function to control animations based on screen position.
 
-- [X] **User Story #4:** use of JavaScript for DOM manipulation and to invent engaging animations which enhance UX/UI.
+🆕 **User Story #4:** use of JavaScript for DOM manipulation and to invent engaging animations which enhance UX/UI.
 
-- [X] **User Story #5:** Adds a super slick SVG animation.
+🆕 **User Story #5:** Adds a super slick SVG animation.
 
-- [X] **User Story #6:** Use of JavaScript to dynamically create and place internal hyperlinks. 
+🆕 **User Story #6:** Use of JavaScript to dynamically create and place internal hyperlinks. 
 
-- [X] **User Story #7:** Creative use of CSS to create an intriguing and visually appealing timeline effect. 
+🆕 **User Story #7:** Creative use of CSS to create an intriguing and visually appealing timeline effect. 
 
-- [X] **User Story #8:** Use of flexbox to create responsive layout.
+🆕 **User Story #8:** Use of flexbox to create responsive layout.
 
-- [X] **User Story #9:** Really awesome pulsing effect.  (tip my hat off to [Florin Pop](https://www.florin-pop.com/blog/2019/03/css-pulse-effect/) for a great tutorial on how to create it.
+🆕 **User Story #9:** Really awesome pulsing effect.  (tip my hat off to [Florin Pop](https://www.florin-pop.com/blog/2019/03/css-pulse-effect/) for a great tutorial on how to create it.
 
-- [X] **User Story #10:** Use of HTML/CSS to fix a known Github error that serves the page up zoomed in at 150%. 
+🆕 **User Story #10:** Use of HTML/CSS to fix a known Github error that serves the page up zoomed in at 150%. 
 
 <br>
 <br>
