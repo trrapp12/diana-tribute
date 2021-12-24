@@ -5,7 +5,7 @@
 <br>
 
 
-[![Button60](https://user-images.githubusercontent.com/11747875/145134031-63e505b6-c009-4e4b-8bd6-bc160c52c3f1.png)](https://trrapp12.github.io/diana-tribute/)
+[![Button60](https://user-images.githubusercontent.com/11747875/145134031-63e505b6-c009-4e4b-8bd6-bc160c52c3f1.png)](https://www.dianarapp.com)
 
 <br>
 
@@ -26,7 +26,7 @@
 ### Description:
 ---
 
-This is an example for a Product Landing Page for the QUADRAStalkr, an imaginary drone from an imaginary company (that I have all the rights to :smirk: :smirk: :smirk: ).  
+This is a passion project for me.  You can see below a description of what version 1.0 contained, along with a GIF of what it looked like.  Then step down to the next level to checkout what I added to my version 2.0 to beef it up!
 
 ### Project demonstrates the following:
 ---
