@@ -62,6 +62,8 @@ As you can see the project as evolved.  The original project only met the requir
 ### <a name="version1">Original project (v1.0) demonstrated the following:</a>
 ---
 
+![Original Project](https://user-images.githubusercontent.com/11747875/145134811-b1988778-44ab-43fd-b194-07041f0fb393.gif)
+
 - [X] **User Story #1:** My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
 - [X] **User Story #2:** I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
