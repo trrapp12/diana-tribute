@@ -1,19 +1,18 @@
 # diana-tribute
 
  ---
+ 
+ ##### Trevor Rapp
 
 <br>
 
 
-[![Button60](https://user-images.githubusercontent.com/11747875/145134031-63e505b6-c009-4e4b-8bd6-bc160c52c3f1.png)](https://trrapp12.github.io/diana-tribute/)
+[![Button60](https://user-images.githubusercontent.com/11747875/145134031-63e505b6-c009-4e4b-8bd6-bc160c52c3f1.png)](https://www.dianarapp.com)
 
 <br>
 
-##### Trevor Rapp
-
-<br />![Diana Tribute Page](https://user-images.githubusercontent.com/11747875/145134811-b1988778-44ab-43fd-b194-07041f0fb393.gif)
-
-
+![Diana Tribute Page](https://user-images.githubusercontent.com/11747875/147320882-d0c01554-eadd-4d14-ae76-dd69c66f46a1.gif)
+<br />
 
 ---
 
@@ -23,15 +22,49 @@
 <br>
 
 ---
-### Description:
+
+### Project Description:
+
 ---
 
-This is an example for a Product Landing Page for the QUADRAStalkr, an imaginary drone from an imaginary company (that I have all the rights to :smirk: :smirk: :smirk: ).  
+This is a passion project for me.  When I took on the assignment to create a tribute page I knew immediately who I needed to give tribute to.  My wife of only two years so far is the best, kindest, sweetest person I know.  She is perpetually kind and eternally forgiving.  She is smart and capable and accomplished.  She is the person I want to become some day.  
 
-### Project demonstrates the following:
+As you can see the project as evolved.  The original project only met the requirements of the assignment.  You can see those [here](#version1) Or, if you look below you can see a description of what the new version 2.0 contains, along with a GIF of what it currently looks like.  Then step down to the next level to checkout what the version 1.0 started out as!
+<br>
+<br>
+
+### New project (v2.0) demonstrates the following: 🆕
 ---
 
-- [X] **User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
+🆕 **User Story #1:** Content is king, and this version does a deep dive into content, bringing 1<sup>st</sup> person stories, secondary news sources, timelines, and photographs to turn an over-night, check-the-box effort into a serious journalistic endeavor.
+
+🆕 **User Story #2:** Utilizes custom subdomain and serves it up with TSL certificate for secure https:// routing.
+
+🆕 **User Story #3:** demonstrates IntersectionObserver API with a callback function to control animations based on screen position.
+
+🆕 **User Story #4:** use of JavaScript for DOM manipulation and to invent engaging animations which enhance UX/UI.
+
+🆕 **User Story #5:** Adds a super slick SVG animation.
+
+🆕 **User Story #6:** Use of JavaScript to dynamically create and place internal hyperlinks. 
+
+🆕 **User Story #7:** Creative use of CSS to create an intriguing and visually appealing timeline effect. 
+
+🆕 **User Story #8:** Use of flexbox to create responsive layout.
+
+🆕 **User Story #9:** Really awesome pulsing effect.  (tip my hat off to [Florin Pop](https://www.florin-pop.com/blog/2019/03/css-pulse-effect/) for a great tutorial on how to create it.
+
+🆕 **User Story #10:** Use of HTML/CSS to fix a known Github error that serves the page up zoomed in at 150%. 
+
+<br>
+<br>
+
+### <a name="version1">Original project (v1.0) demonstrated the following:</a>
+---
+
+![Original Project](https://user-images.githubusercontent.com/11747875/145134811-b1988778-44ab-43fd-b194-07041f0fb393.gif)
+
+- [X] **User Story #1:** My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
 - [X] **User Story #2:** I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
 
@@ -49,6 +82,9 @@ This is an example for a Product Landing Page for the QUADRAStalkr, an imaginary
 
 - [X] **User Story #9:** The img element should be centered within its parent element.
 
+<br>
+<br>
+
 ### Project published at: 
 ---
 
@@ -57,7 +93,7 @@ This is an example for a Product Landing Page for the QUADRAStalkr, an imaginary
 ### More Information:
 ---
 
-\**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037) or return to my [Github](https://github.com/trrapp12)*
-# test-private
+*For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037) or return to my [Github](https://github.com/trrapp12)*
+
 
 
