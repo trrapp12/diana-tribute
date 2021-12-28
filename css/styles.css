@@ -39,6 +39,11 @@ Font-Size: 16px; */
   padding: 0;
 }
 
+a:hover,a:focus {
+  text-decoration: underline;
+
+}
+
 .card > .alec-middle {
     transform: translateX(10%);
 }
@@ -150,6 +155,10 @@ body {
 .card:nth-child(odd) > h3, .card:nth-child(odd)  > p {
   display: flex;
   justify-content: right
+}
+
+.card:last-child {
+  padding: 0;
 }
 
 .container {
@@ -579,13 +588,19 @@ main > div.card:nth-child(odd)::before {
 }
 
 main > div.card:nth-child(1) {
-    border-top: none;
-    border-radius: 0px 0px 10px 0px;
-    height: 12vh;
-    top: 1vh;
-    position: relative;
-    width: 24.6vw;
-    transform: translate(-24vw, -69vh);
+  border-top: none;
+  border-radius: 0px 0px 10px 0px;
+  height: 12vh;
+  top: 1vh;
+  position: relative;
+  width: 24.6vw;
+  transform: translate(-24vw, -69vh);
+}
+
+.more-info {
+  width: 30%;
+  margin: 3em auto 1em auto;
+  color: white;
 }
 
 p {
