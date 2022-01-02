@@ -29,7 +29,7 @@
 
 This is a passion project for me.  When I took on the assignment to create a tribute page I knew immediately who I needed to give tribute to.  My wife of only two years so far is the best, kindest, sweetest person I know.  She is perpetually kind and eternally forgiving.  She is smart and capable and accomplished.  She is the person I want to become some day.  
 
-As you can see the project as evolved.  The original project only met the requirements of the assignment.  You can see those [here](#version1) Or, if you look below you can see a description of what the new version 2.0 contains, along with a GIF of what it currently looks like.  Then step down to the next level to checkout what the version 1.0 started out as!
+As you can see the project as evolved.  The original project only met the requirements of the Free Code Camp Tribute assignment.  Immediately below, you can see what the new improvements included.  Or, if you like, you can see the original requirements [here](#version1) Then step down to the next level to checkout what the version 1.0 started out as!
 <br>
 <br>
 
