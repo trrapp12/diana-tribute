@@ -221,6 +221,11 @@ figcaption {
   overflow-wrap: break-word;
 }
 
+#event_19 > figure:nth-child(3) > figcaption {
+  width: 22%;
+  padding: 4em 2em 0 0 ;
+}
+
 #event_35 > figure > .flush-right {
   max-width: none;
   margin-left: 0;
