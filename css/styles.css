@@ -231,6 +231,13 @@ figcaption {
   padding: 4em 2em 0 0 ;
 }
 
+#event_37 > figure > figcaption {
+  width: 58%;
+  padding: 5em 2em 2em 0;
+  margin-left: auto;
+  text-align: right;
+}
+
 #event_35 > figure > .flush-right {
   max-width: none;
   margin-left: 0;
