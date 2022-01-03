@@ -39,7 +39,7 @@ Font-Size: 16px; */
   padding: 0;
 }
 
-a:hover,a:focus, a:visited {
+a:hover,a:focus, {
   text-decoration: underline;
   color: #e69500;
 }
