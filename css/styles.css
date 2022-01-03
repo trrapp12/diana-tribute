@@ -39,9 +39,9 @@ Font-Size: 16px; */
   padding: 0;
 }
 
-a:hover,a:focus {
+a:hover,a:focus, a:visited {
   text-decoration: underline;
-
+  color: #e69500;
 }
 
 .card > .alec-middle {
