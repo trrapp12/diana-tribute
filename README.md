@@ -11,7 +11,11 @@
 
 <br>
 
-![Diana Tribute Page](https://user-images.githubusercontent.com/11747875/147320882-d0c01554-eadd-4d14-ae76-dd69c66f46a1.gif)
+
+
+https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-ad05-9a5c4b4c3f33.mp4
+
+
 <br />
 
 ---
@@ -52,7 +56,7 @@ As you can see the project as evolved.  The original project only met the requir
 
 🆕 **User Story #8:** Use of flexbox to create responsive layout.
 
-🆕 **User Story #9:** Really awesome pulsing effect.  (tip my hat off to [Florin Pop](https://www.florin-pop.com/blog/2019/03/css-pulse-effect/) for a great tutorial on how to create it.
+🆕 **User Story #9:** Really awesome pulsing effect.  Tip my hat off to [Florin Pop](https://www.florin-pop.com/blog/2019/03/css-pulse-effect/) for a great tutorial on how to create it.
 
 🆕 **User Story #10:** Use of HTML/CSS to fix a known Github error that serves the page up zoomed in at 150%. 
 
