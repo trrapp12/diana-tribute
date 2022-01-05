@@ -56,7 +56,7 @@ As you can see the project as evolved.  The original project only met the requir
 
 🆕 **User Story #8:** Use of flexbox to create responsive layout.
 
-🆕 **User Story #9:** Really awesome pulsing effect.  (tip my hat off to [Florin Pop](https://www.florin-pop.com/blog/2019/03/css-pulse-effect/) for a great tutorial on how to create it.
+🆕 **User Story #9:** Really awesome pulsing effect.  Tip my hat off to [Florin Pop](https://www.florin-pop.com/blog/2019/03/css-pulse-effect/) for a great tutorial on how to create it.
 
 🆕 **User Story #10:** Use of HTML/CSS to fix a known Github error that serves the page up zoomed in at 150%. 
 
