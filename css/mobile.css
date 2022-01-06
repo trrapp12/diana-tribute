@@ -45,11 +45,11 @@ a:hover,a:focus, {
 }
 
 .card > .alec-middle {
-    transform: translateX(10%);
+    /* transform: translateX(10%); */
 }
 
 .card > .alec-middle .figcaption{
-    transform: translateX(10%);
+    /* transform: translateX(10%); */
 }
 
 .background-gradient::before {
@@ -216,20 +216,20 @@ figcaption {
 }
 
 #event_19 > figure:nth-child(3) > figcaption {
-  width: 22%;
-  padding: 4em 2em 0 0 ;
+  /* width: 22%;
+  padding: 4em 2em 0 0 ; */
 }
 
 #event_19 > figure:nth-child(5) > figcaption {
-  width: 22%;
-  padding: 4em 2em 0 0 ;
+  /* width: 22%;
+  padding: 4em 2em 0 0 ; */
 }
 
 #event_37 > figure > figcaption {
-  width: 58%;
+  /* width: 58%;
   padding: 5em 2em 2em 0;
   margin-left: auto;
-  text-align: right;
+  text-align: right; */
 }
 
 #event_35 > figure > .flush-right {
@@ -555,7 +555,7 @@ p {
 }
 
 .scans > figcaption {
-  margin-left: 36%;
+  /* margin-left: 36%; */
 }
 
 .second-paragraph {
@@ -676,9 +676,9 @@ svg {
 }
 
 #tuachan_group_selfie {
-  object-fit: none;
+  /* object-fit: none;
   width: 478.3px;
-  height: 270px;
+  height: 270px; */
 }
 
 .vegas {
