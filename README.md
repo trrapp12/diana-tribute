@@ -24,12 +24,11 @@ https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-
 <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 <br>
+<br>
 
 ---
 
 ### Project Description:
-
----
 
 This is a passion project for me.  When I took on the assignment to create a tribute page I knew immediately who I needed to give tribute to.  My wife of only two years so far is the best, kindest, sweetest person I know.  She is perpetually kind and eternally forgiving.  She is smart and capable and accomplished.  She is the person I want to become some day.  
 
@@ -37,8 +36,10 @@ As you can see the project as evolved.  The original project only met the requir
 <br>
 <br>
 
-### New project (v2.0) demonstrates the following: 🆕
 ---
+
+### New project (v2.0) demonstrates the following: 🆕
+
 
 🆕 **User Story #1:** Content is king, and this version does a deep dive into content, bringing 1<sup>st</sup> person stories, secondary news sources, timelines, and photographs to turn an over-night, check-the-box effort into a serious journalistic endeavor.
 
@@ -63,8 +64,10 @@ As you can see the project as evolved.  The original project only met the requir
 <br>
 <br>
 
-### <a name="version1">Original project (v1.0) demonstrated the following:</a>
 ---
+
+### <a name="version1">Original project (v1.0) demonstrated the following:</a>
+
 
 ![Original Project](https://user-images.githubusercontent.com/11747875/145134811-b1988778-44ab-43fd-b194-07041f0fb393.gif)
 
@@ -89,13 +92,19 @@ As you can see the project as evolved.  The original project only met the requir
 <br>
 <br>
 
-### Project published at: 
 ---
+
+### Project published at: 
+
 
 [Diana Tribute Page](https://trrapp12.github.io/diana-tribute/)
 
-### More Information:
+<br>
+<br>
+
 ---
+
+### More Information:
 
 *For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037) or return to my [Github](https://github.com/trrapp12)*
 
