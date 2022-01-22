@@ -1,5 +1,8 @@
 # diana-tribute
 
+
+##### Contributors: Trevor Rapp
+
  ---
  
  ##### Trevor Rapp
