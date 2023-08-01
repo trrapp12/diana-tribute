@@ -97,17 +97,13 @@ As you can see the project as evolved.  The original project only met the requir
 
 ---
 
-### Project published at: 
+### FREE CODE CAMP RESPONSIVE WEB DESIGN CERTIFICATE:
 
-
-[Diana Tribute Page](https://trrapp12.github.io/diana-tribute/)
-
-<br>
-<br>
+![freeCodeCampResponsiveWebDesign.png](https://user-images.githubusercontent.com/11747875/257409023-964325b1-9779-48c7-bc0a-a9852a93d0cb.png)
 
 ---
 
-### More Information:
+### YOU CAN FIND ME AT:
 
 *For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037) or return to my [Github](https://github.com/trrapp12)*
 
