@@ -31,7 +31,11 @@ https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-
 
 ---
 
-### Project Description:
+### THIS PROJECT DEMONSTRATES:
+
+> "I found the one my heart loves."
+>
+> - Song of Solomon 3:4.
 
 This is a passion project for me.  When I took on the assignment to create a tribute page I knew immediately who I needed to give tribute to.  My wife of only two years so far is the best, kindest, sweetest person I know.  She is perpetually kind and eternally forgiving.  She is smart and capable and accomplished.  She is the person I want to become some day.  
 
@@ -41,7 +45,7 @@ As you can see the project as evolved.  The original project only met the requir
 
 ---
 
-### New project (v2.0) demonstrates the following: 🆕
+### NEW PROJECT (v2.0) DEMONSTRATES:🆕
 
 
 🆕 **User Story #1:** Content is king, and this version does a deep dive into content, bringing 1<sup>st</sup> person stories, secondary news sources, timelines, and photographs to turn an over-night, check-the-box effort into a serious journalistic endeavor.
@@ -64,12 +68,9 @@ As you can see the project as evolved.  The original project only met the requir
 
 🆕 **User Story #10:** Use of HTML/CSS to fix a known Github error that serves the page up zoomed in at 150%. 
 
-<br>
-<br>
-
 ---
 
-### <a name="version1">Original project (v1.0) demonstrated the following:</a>
+### <a name="version1">ORIGINAL PROJECT (v1.0) DEMONSTRATES:</a>
 
 
 ![Original Project](https://user-images.githubusercontent.com/11747875/145134811-b1988778-44ab-43fd-b194-07041f0fb393.gif)
@@ -92,8 +93,101 @@ As you can see the project as evolved.  The original project only met the requir
 
 - [X] **User Story #9:** The img element should be centered within its parent element.
 
-<br>
-<br>
+---
+
+### CHALLENGES I OVERCAME...
+
+* This was one of my first web sites, so a lot of it was still new to me.  But especially interesting challenges were 
+
+* creating an SVG animation
+
+```javascript  
+
+(function () {
+let j = 0;
+const parent = document.getElementById('logo').children;
+
+// console.log(parent);
+    document.addEventListener('animationend', function(evt) {setTimeout( () => {
+      if (evt.target.nodeName === 'path' && j === 0) {
+        j++;
+        console.log(parent);
+
+        for (let i = 0; i < parent.length; i++) {
+          // console.log(parent[i]);
+          if (parent[i].nodeName === 'path') {
+
+            parent[i].style.strokeDashArray = 'inherit';
+            parent[i].style.strokeDashoffset = 'inherit';
+            parent[i].style.animationName = 'goldtowhite';
+            parent[i].style.animationDuration = '10s !important';
+            parent[i].style.animationDirection = 'forwards !important';
+            parent[i].style.animationTimingFunction = 'ease !important';
+            parent[i].style.animationDelay = '500ms';
+          } else {
+            console.log('not');
+          }
+        }
+
+
+        document.removeEventListener('animationend', function(evt) {
+          return;
+        });
+      }
+    }, 3300);
+  });
+})();
+    
+```
+* making a button that would automatically take you to the next section, with each section having different sizes and end points, then when it got to the end of the page it would know to turn right side up and the next click would take you all the way back to the top+
+
+```javascript
+
+(() => {
+
+let observer = new IntersectionObserver(myObserverCallback, {threshold: 0.3});
+
+function myObserverCallback(entries, observer) {
+  entries.forEach(entry => {
+    if(entry.isIntersecting) {
+      entry.target.classList.add('javascript-card-visibility');
+      observer.unobserve(entry.target);
+    }
+  });
+}
+
+document.querySelectorAll('.card:nth-child(even)').forEach(element => {observer.observe(element); });
+
+let observer2 = new IntersectionObserver(myObserverCallback2, {threshold: 1});
+
+function myObserverCallback2(entries, observer2) {
+  entries.forEach(entry => {
+    if(entry.isIntersecting) {
+      let count = 0;
+      document.getElementById('button').classList.add('spin');
+      window.location.href = `#event_${count}`;
+      observer2.unobserve(entry.target);
+    }
+  });
+}
+
+document.querySelectorAll('.event_32').forEach(element => {observer2.observe(element); });
+
+})();
+
+```
+
+---
+
+### MY OWN PERSONAL CONTRIBUTIONS INCLUDED 
+
+- [X] all work is my own.  All contributions are my own as well.
+
+---
+
+### ATTRIBUTIONS
+
+No attributions applicable for this project.
 
 ---
 
