@@ -7,12 +7,9 @@
  
 <br>
 
-
 [![Button60](https://user-images.githubusercontent.com/11747875/145134031-63e505b6-c009-4e4b-8bd6-bc160c52c3f1.png)](https://www.dianarapp.com)
 
 <br>
-
-
 
 https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-ad05-9a5c4b4c3f33.mp4
 
@@ -40,8 +37,7 @@ https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-
 
 *As you can see the project as evolved.  The original project only met the requirements of the Free Code Camp Tribute assignment.  Immediately below, you can see what the new improvements included.  Or, if you like, you can see the original requirements [here](#version1) Then step down to the next level to checkout what the version 1.0 started out as!*
 
-<br>
-<br>
+<br/>
 
 ---
 
