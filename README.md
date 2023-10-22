@@ -43,7 +43,7 @@ https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-
 
 ### QUICKSTART GUIDE
 
-To use the app simply click on the ```View Project``` button or visit <a href="https://trrapp12.github.io/groovy-blocks/">https://trrapp12.github.io/groovy-blocks/</a>. 
+To use the app simply click on the ```View Project``` button or visit <a href="https://www.dianarapp.com">https://www.dianarapp.com</a>. 
 
 <br/>
 
