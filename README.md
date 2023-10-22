@@ -31,7 +31,7 @@ https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-
 
 > "I found the one my heart loves."
 >
-> - Song of Solomon 3:4.
+> -- Song of Solomon 3:4.
 
 *This is a passion project for me.  When I took on the assignment to create a tribute page I knew immediately who I needed to give tribute to.  My wife of only two years so far is the best, kindest, sweetest person I know.  She is perpetually kind and eternally forgiving.  She is smart and capable and accomplished.  She is the person I want to become some day.*
 
