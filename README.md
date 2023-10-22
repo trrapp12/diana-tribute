@@ -191,7 +191,16 @@ document.querySelectorAll('.event_32').forEach(element => {observer2.observe(ele
 
 ### MY OWN PERSONAL CONTRIBUTIONS INCLUDED 
 
-- [X] all work is my own.  All contributions are my own as well.
+- [X] 100% of the work is my own. The only direction came as part of user story requirements.  
+
+<br/>
+
+---
+
+
+### FREE CODE CAMP RESPONSIVE WEB DESIGN CERTIFICATE:
+
+![freeCodeCampResponsiveWebDesign.png](https://user-images.githubusercontent.com/11747875/257409023-964325b1-9779-48c7-bc0a-a9852a93d0cb.png)
 
 <br/>
 
@@ -200,14 +209,6 @@ document.querySelectorAll('.event_32').forEach(element => {observer2.observe(ele
 ### ATTRIBUTIONS
 
 No attributions applicable for this project.
-
-<br/>
-
----
-
-### FREE CODE CAMP RESPONSIVE WEB DESIGN CERTIFICATE:
-
-![freeCodeCampResponsiveWebDesign.png](https://user-images.githubusercontent.com/11747875/257409023-964325b1-9779-48c7-bc0a-a9852a93d0cb.png)
 
 <br/>
 
