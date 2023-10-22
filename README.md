@@ -5,8 +5,6 @@
 
  ---
  
- ##### Trevor Rapp
-
 <br>
 
 
@@ -18,28 +16,27 @@
 
 https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-ad05-9a5c4b4c3f33.mp4
 
-
-<br />
+<br/>
+<br/>
 
 ---
 
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<br>
-<br>
 
 ---
 
-### THIS PROJECT DEMONSTRATES:
+### DESCRIPTION:
 
 > "I found the one my heart loves."
 >
 > - Song of Solomon 3:4.
 
-This is a passion project for me.  When I took on the assignment to create a tribute page I knew immediately who I needed to give tribute to.  My wife of only two years so far is the best, kindest, sweetest person I know.  She is perpetually kind and eternally forgiving.  She is smart and capable and accomplished.  She is the person I want to become some day.  
+*This is a passion project for me.  When I took on the assignment to create a tribute page I knew immediately who I needed to give tribute to.  My wife of only two years so far is the best, kindest, sweetest person I know.  She is perpetually kind and eternally forgiving.  She is smart and capable and accomplished.  She is the person I want to become some day.*
 
-As you can see the project as evolved.  The original project only met the requirements of the Free Code Camp Tribute assignment.  Immediately below, you can see what the new improvements included.  Or, if you like, you can see the original requirements [here](#version1) Then step down to the next level to checkout what the version 1.0 started out as!
+*As you can see the project as evolved.  The original project only met the requirements of the Free Code Camp Tribute assignment.  Immediately below, you can see what the new improvements included.  Or, if you like, you can see the original requirements [here](#version1) Then step down to the next level to checkout what the version 1.0 started out as!*
+
 <br>
 <br>
 
@@ -48,25 +45,25 @@ As you can see the project as evolved.  The original project only met the requir
 ### NEW PROJECT (v2.0) DEMONSTRATES:🆕
 
 
-🆕 **User Story #1:** Content is king, and this version does a deep dive into content, bringing 1<sup>st</sup> person stories, secondary news sources, timelines, and photographs to turn an over-night, check-the-box effort into a serious journalistic endeavor.
+🆕 **Content is king**, and this version does a deep dive into content, bringing 1<sup>st</sup> person stories, secondary news sources, timelines, and photographs to turn an over-night, check-the-box effort into a serious journalistic endeavor.
 
-🆕 **User Story #2:** Utilizes custom subdomain and serves it up with TSL certificate for secure https:// routing.
+🆕 Utilizes custom subdomain and serves it up with TSL certificate for secure https:// routing.
 
-🆕 **User Story #3:** demonstrates IntersectionObserver API with a callback function to control animations based on screen position.
+🆕 Demonstrates IntersectionObserver API with a callback function to control animations based on screen position.
 
-🆕 **User Story #4:** use of JavaScript for DOM manipulation and to invent engaging animations which enhance UX/UI.
+🆕 Use of JavaScript for DOM manipulation and to invent engaging animations which enhance UX/UI.
 
-🆕 **User Story #5:** Adds a super slick SVG animation.
+🆕 Adds a super slick SVG animation.
 
-🆕 **User Story #6:** Use of JavaScript to dynamically create and place internal hyperlinks. 
+🆕 Use of JavaScript to dynamically create and place internal hyperlinks. 
 
-🆕 **User Story #7:** Creative use of CSS to create an intriguing and visually appealing timeline effect. 
+🆕 Creative use of CSS to create an intriguing and visually appealing timeline effect. 
 
-🆕 **User Story #8:** Use of flexbox to create responsive layout.
+🆕 Use of flexbox to create responsive layout.
 
-🆕 **User Story #9:** Really awesome pulsing effect.  Tip my hat off to [Florin Pop](https://www.florin-pop.com/blog/2019/03/css-pulse-effect/) for a great tutorial on how to create it.
+🆕 Really awesome pulsing effect.  Tip my hat off to [Florin Pop](https://www.florin-pop.com/blog/2019/03/css-pulse-effect/) for a great tutorial on how to create it.
 
-🆕 **User Story #10:** Use of HTML/CSS to fix a known Github error that serves the page up zoomed in at 150%. 
+🆕 Use of HTML/CSS to fix a known Github error that serves the page up zoomed in at 150%. 
 
 ---
 
