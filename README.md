@@ -32,6 +32,9 @@ https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-
 > "I found the one my heart loves."
 >
 > -- Song of Solomon 3:4.
+>
+
+<br/>
 
 *This is a passion project for me.  When I took on the assignment to create a tribute page I knew immediately who I needed to give tribute to.  My wife of only two years so far is the best, kindest, sweetest person I know.  She is perpetually kind and eternally forgiving.  She is smart and capable and accomplished.  She is the person I want to become some day.*
 
@@ -65,6 +68,8 @@ https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-
 
 🆕 Use of HTML/CSS to fix a known Github error that serves the page up zoomed in at 150%. 
 
+<br/>
+
 ---
 
 ### <a name="version1">ORIGINAL PROJECT (v1.0) DEMONSTRATES:</a>
@@ -89,6 +94,8 @@ https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-
 - [X] **User Story #8:** The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 
 - [X] **User Story #9:** The img element should be centered within its parent element.
+
+<br/>
 
 ---
 
@@ -174,11 +181,15 @@ document.querySelectorAll('.event_32').forEach(element => {observer2.observe(ele
 
 ```
 
+<br/>
+
 ---
 
 ### MY OWN PERSONAL CONTRIBUTIONS INCLUDED 
 
 - [X] all work is my own.  All contributions are my own as well.
+
+<br/>
 
 ---
 
@@ -186,11 +197,15 @@ document.querySelectorAll('.event_32').forEach(element => {observer2.observe(ele
 
 No attributions applicable for this project.
 
+<br/>
+
 ---
 
 ### FREE CODE CAMP RESPONSIVE WEB DESIGN CERTIFICATE:
 
 ![freeCodeCampResponsiveWebDesign.png](https://user-images.githubusercontent.com/11747875/257409023-964325b1-9779-48c7-bc0a-a9852a93d0cb.png)
+
+<br/>
 
 ---
 
